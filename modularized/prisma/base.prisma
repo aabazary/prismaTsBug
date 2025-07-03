@@ -7,4 +7,5 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
-
+/// <include path="./schema/role.prisma" />
+/// <include path="./schema/user.prisma" />
